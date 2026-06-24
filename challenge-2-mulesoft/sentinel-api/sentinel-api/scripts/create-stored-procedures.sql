@@ -1,0 +1,1628 @@
+-- =============================================================
+-- Sentinel API - Stub Stored Procedures for Local Development
+-- Generated from STORED_PROCEDURES.md (162 unique procs)
+-- These return empty result sets for local testing.
+-- =============================================================
+USE DigitalServiceDataStore;
+GO
+
+IF OBJECT_ID('dbo.API_REF_PARTY_EVENT_COMMUNICATION_DIRECTION_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.API_REF_PARTY_EVENT_COMMUNICATION_DIRECTION_Get;
+GO
+CREATE PROCEDURE dbo.API_REF_PARTY_EVENT_COMMUNICATION_DIRECTION_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'API_REF_PARTY_EVENT_COMMUNICATION_DIRECTION_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.API_REF_PARTY_EVENT_COMMUNICATION_TYPE_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.API_REF_PARTY_EVENT_COMMUNICATION_TYPE_Get;
+GO
+CREATE PROCEDURE dbo.API_REF_PARTY_EVENT_COMMUNICATION_TYPE_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'API_REF_PARTY_EVENT_COMMUNICATION_TYPE_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ApplicationWorkInProgressItems_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ApplicationWorkInProgressItems_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_ApplicationWorkInProgressItems_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ApplicationWorkInProgressItems_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Application_Address_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Application_Address_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Application_Address_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Application_Address_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Application_Detail_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Application_Detail_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Application_Detail_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Application_Detail_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Application_Device_Inprogress_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Application_Device_Inprogress_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Application_Device_Inprogress_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Application_Device_Inprogress_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Application_Organisation_Inprogress_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Application_Organisation_Inprogress_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Application_Organisation_Inprogress_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Application_Organisation_Inprogress_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_CFSApplication_Address_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_CFSApplication_Address_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_CFSApplication_Address_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_CFSApplication_Address_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_CFSApplication_Country_List_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_CFSApplication_Country_List_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_CFSApplication_Country_List_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_CFSApplication_Country_List_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_CFSApplication_Document_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_CFSApplication_Document_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_CFSApplication_Document_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_CFSApplication_Document_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_CHECK_ACCOUNT_DUPLICATE_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_CHECK_ACCOUNT_DUPLICATE_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_CHECK_ACCOUNT_DUPLICATE_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_CHECK_ACCOUNT_DUPLICATE_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_CHECK_ADDR_DUPLICATE_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_CHECK_ADDR_DUPLICATE_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_CHECK_ADDR_DUPLICATE_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_CHECK_ADDR_DUPLICATE_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_DEROGATIONS_CORRESPONDENCE_DECISION_DOCUMENTS_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_DEROGATIONS_CORRESPONDENCE_DECISION_DOCUMENTS_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_DEROGATIONS_CORRESPONDENCE_DECISION_DOCUMENTS_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_DEROGATIONS_CORRESPONDENCE_DECISION_DOCUMENTS_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_DEROGATIONS_DCT_COMMENTS_SUPPORTINGDOCS_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_DEROGATIONS_DCT_COMMENTS_SUPPORTINGDOCS_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_DEROGATIONS_DCT_COMMENTS_SUPPORTINGDOCS_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_DEROGATIONS_DCT_COMMENTS_SUPPORTINGDOCS_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_DEROGATIONS_FINAL_DECISION_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_DEROGATIONS_FINAL_DECISION_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_DEROGATIONS_FINAL_DECISION_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_DEROGATIONS_FINAL_DECISION_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_DR_CHILD_APPLICATION_FURTHER_INFORMATION_COUNT_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_DR_CHILD_APPLICATION_FURTHER_INFORMATION_COUNT_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_DR_CHILD_APPLICATION_FURTHER_INFORMATION_COUNT_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_DR_CHILD_APPLICATION_FURTHER_INFORMATION_COUNT_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_DeviceProduct_Detail_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_DeviceProduct_Detail_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_DeviceProduct_Detail_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_DeviceProduct_Detail_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_DeviceProduct_List_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_DeviceProduct_List_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_DeviceProduct_List_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_DeviceProduct_List_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Device_CE_Certificate_ExpiryDate_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Device_CE_Certificate_ExpiryDate_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Device_CE_Certificate_ExpiryDate_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Device_CE_Certificate_ExpiryDate_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Device_Product_Documents_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Device_Product_Documents_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Device_Product_Documents_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Device_Product_Documents_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Document_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Document_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Document_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Document_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Application_ApplicationAssignment_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Application_ApplicationAssignment_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Application_ApplicationAssignment_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Application_ApplicationAssignment_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Application_DeviceRegistrationStatus_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Application_DeviceRegistrationStatus_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Application_DeviceRegistrationStatus_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Application_DeviceRegistrationStatus_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Application_OrganisationRegistrationStatus_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Application_OrganisationRegistrationStatus_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Application_OrganisationRegistrationStatus_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Application_OrganisationRegistrationStatus_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Application_Organisation_Draft_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Application_Organisation_Draft_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Application_Organisation_Draft_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Application_Organisation_Draft_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_BACSCHAPS_PAYMENT_APPROVAL_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_BACSCHAPS_PAYMENT_APPROVAL_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_BACSCHAPS_PAYMENT_APPROVAL_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_BACSCHAPS_PAYMENT_APPROVAL_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_CFS_Application_Document_Json_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_CFS_Application_Document_Json_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_CFS_Application_Document_Json_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_CFS_Application_Document_Json_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_CFS_Order_Application_API_Json_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_CFS_Order_Application_API_Json_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_CFS_Order_Application_API_Json_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_CFS_Order_Application_API_Json_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_CREATE_ACCOUNT_Post_Generic', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_CREATE_ACCOUNT_Post_Generic;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_CREATE_ACCOUNT_Post_Generic
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_CREATE_ACCOUNT_Post_Generic' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Device_AddDevice_API_Json_Post_Generic', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Device_AddDevice_API_Json_Post_Generic;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Device_AddDevice_API_Json_Post_Generic
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Device_AddDevice_API_Json_Post_Generic' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Device_Product_Registration_Json_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Device_Product_Registration_Json_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Device_Product_Registration_Json_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Device_Product_Registration_Json_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Device_Registration_API_Json_Post_Generic', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Device_Registration_API_Json_Post_Generic;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Device_Registration_API_Json_Post_Generic
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Device_Registration_API_Json_Post_Generic' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Document_StorageIdentifier_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Document_StorageIdentifier_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Document_StorageIdentifier_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Document_StorageIdentifier_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Further_Info_Application_Event_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Further_Info_Application_Event_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Further_Info_Application_Event_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Further_Info_Application_Event_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Further_Info_Device_Registration_Json_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Further_Info_Device_Registration_Json_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Further_Info_Device_Registration_Json_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Further_Info_Device_Registration_Json_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_MODULE_ADDR_Delete', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_MODULE_ADDR_Delete;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_MODULE_ADDR_Delete
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_MODULE_ADDR_Delete' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_MODULE_ADDR_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_MODULE_ADDR_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_MODULE_ADDR_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_MODULE_ADDR_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_MODULE_ADDR_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_MODULE_ADDR_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_MODULE_ADDR_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_MODULE_ADDR_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Migration_GracePeriod_Notification_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Migration_GracePeriod_Notification_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Migration_GracePeriod_Notification_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Migration_GracePeriod_Notification_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Migration_UserOrganisation_Address_Confirmation_Flag_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Migration_UserOrganisation_Address_Confirmation_Flag_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Migration_UserOrganisation_Address_Confirmation_Flag_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Migration_UserOrganisation_Address_Confirmation_Flag_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Module_Individual_Delete', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Module_Individual_Delete;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Module_Individual_Delete
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Module_Individual_Delete' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Module_Individual_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Module_Individual_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Module_Individual_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Module_Individual_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Module_Individual_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Module_Individual_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Module_Individual_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Module_Individual_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_ORGANISATION_REGISTRATION_APPROVAL_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_ORGANISATION_REGISTRATION_APPROVAL_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_ORGANISATION_REGISTRATION_APPROVAL_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_ORGANISATION_REGISTRATION_APPROVAL_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_ORGANISATION_UNREGISTRATION_BY_ADMIN_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_ORGANISATION_UNREGISTRATION_BY_ADMIN_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_ORGANISATION_UNREGISTRATION_BY_ADMIN_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_ORGANISATION_UNREGISTRATION_BY_ADMIN_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_ORGANISATION_UNREGISTRATION_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_ORGANISATION_UNREGISTRATION_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_ORGANISATION_UNREGISTRATION_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_ORGANISATION_UNREGISTRATION_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Organisation_Registration_API_Json_Post_Generic', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Organisation_Registration_API_Json_Post_Generic;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Organisation_Registration_API_Json_Post_Generic
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Organisation_Registration_API_Json_Post_Generic' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_Organisation_Registration_API_Json_Put_Generic', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_Organisation_Registration_API_Json_Put_Generic;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_Organisation_Registration_API_Json_Put_Generic
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_Organisation_Registration_API_Json_Put_Generic' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_PARD_OPTIONS_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_PARD_OPTIONS_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_PARD_OPTIONS_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_PARD_OPTIONS_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_PARTY_NOTES_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_PARTY_NOTES_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_PARTY_NOTES_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_PARTY_NOTES_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_PAYMENT_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_PAYMENT_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_PAYMENT_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_PAYMENT_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ENC_USER_PERMISSION_STATUS_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ENC_USER_PERMISSION_STATUS_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_ENC_USER_PERMISSION_STATUS_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ENC_USER_PERMISSION_STATUS_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_EXCEPTIONAL_USE_DEVICE_SEARCH_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_EXCEPTIONAL_USE_DEVICE_SEARCH_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_EXCEPTIONAL_USE_DEVICE_SEARCH_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_EXCEPTIONAL_USE_DEVICE_SEARCH_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_EXCEPTIONAL_USE_INCIDENT_ATTACH_DOCUMENT_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_EXCEPTIONAL_USE_INCIDENT_ATTACH_DOCUMENT_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_EXCEPTIONAL_USE_INCIDENT_ATTACH_DOCUMENT_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_EXCEPTIONAL_USE_INCIDENT_ATTACH_DOCUMENT_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_EXCEPTIONAL_USE_INCIDENT_SEARCH_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_EXCEPTIONAL_USE_INCIDENT_SEARCH_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_EXCEPTIONAL_USE_INCIDENT_SEARCH_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_EXCEPTIONAL_USE_INCIDENT_SEARCH_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Further_Info_Application_Event_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Further_Info_Application_Event_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Further_Info_Application_Event_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Further_Info_Application_Event_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_ADVERSE_BLOOD_INCIDENT_SEARCH_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_ADVERSE_BLOOD_INCIDENT_SEARCH_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_ADVERSE_BLOOD_INCIDENT_SEARCH_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_ADVERSE_BLOOD_INCIDENT_SEARCH_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_CASE_COMMENTS_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_CASE_COMMENTS_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_CASE_COMMENTS_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_CASE_COMMENTS_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_CASE_COMMENTS_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_CASE_COMMENTS_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_CASE_COMMENTS_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_CASE_COMMENTS_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_CASE_FOOTNOTE_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_CASE_FOOTNOTE_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_CASE_FOOTNOTE_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_CASE_FOOTNOTE_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_CASE_REVIEW_AUDITLOG_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_CASE_REVIEW_AUDITLOG_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_CASE_REVIEW_AUDITLOG_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_CASE_REVIEW_AUDITLOG_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_FOOTNOTE_DOCUMENT_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_FOOTNOTE_DOCUMENT_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_FOOTNOTE_DOCUMENT_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_FOOTNOTE_DOCUMENT_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_INCIDENT_Patch', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_INCIDENT_Patch;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_INCIDENT_Patch
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_INCIDENT_Patch' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SERIOUS_INCIDENT_CONFIRMATION_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SERIOUS_INCIDENT_CONFIRMATION_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SERIOUS_INCIDENT_CONFIRMATION_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SERIOUS_INCIDENT_CONFIRMATION_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_CONFIRMATION_DOCUMENT_READ_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_CONFIRMATION_DOCUMENT_READ_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_CONFIRMATION_DOCUMENT_READ_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_CONFIRMATION_DOCUMENT_READ_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_NOTIFICATION_DOCUMENT_READ_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_NOTIFICATION_DOCUMENT_READ_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_NOTIFICATION_DOCUMENT_READ_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_CONFIRM_EVENT_NOTIFICATION_DOCUMENT_READ_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_FOOTNOTE_READ_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_FOOTNOTE_READ_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_FOOTNOTE_READ_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_CONFIRM_FOOTNOTE_READ_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_REACTION_NOTIFICATION_DOCUMENT_READ_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_REACTION_NOTIFICATION_DOCUMENT_READ_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_REACTION_NOTIFICATION_DOCUMENT_READ_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_CONFIRM_REACTION_NOTIFICATION_DOCUMENT_READ_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_READ_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_READ_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_CONFIRM_READ_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_CONFIRM_READ_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_GETEVENTCONFIRM_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETEVENTCONFIRM_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETEVENTCONFIRM_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_GETEVENTCONFIRM_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_GETEVENTNOTIFY_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETEVENTNOTIFY_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETEVENTNOTIFY_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_GETEVENTNOTIFY_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_GETFOOTNOTES_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETFOOTNOTES_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETFOOTNOTES_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_GETFOOTNOTES_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_GETREACTNOTIFY_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETREACTNOTIFY_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_GETREACTNOTIFY_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_GETREACTNOTIFY_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_ORGSEARCH_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_ORGSEARCH_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_ORGSEARCH_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_ORGSEARCH_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_SENDREACTIONCONFIRMATION_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_SENDREACTIONCONFIRMATION_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_SENDREACTIONCONFIRMATION_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_SENDREACTIONCONFIRMATION_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_SENDURLPACKET_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_SENDURLPACKET_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_SENDURLPACKET_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_SENDURLPACKET_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HAEMO_SHOT_WSDL_USERSEARCH_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_USERSEARCH_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_HAEMO_SHOT_WSDL_USERSEARCH_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HAEMO_SHOT_WSDL_USERSEARCH_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HUMANITARIAN_CASE_COMMENTS_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HUMANITARIAN_CASE_COMMENTS_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_HUMANITARIAN_CASE_COMMENTS_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HUMANITARIAN_CASE_COMMENTS_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HUMANITARIAN_CONSULTANT_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HUMANITARIAN_CONSULTANT_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_HUMANITARIAN_CONSULTANT_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HUMANITARIAN_CONSULTANT_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_HUMANITARIAN_INCIDENT_STATUS_DECISION_Patch', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_HUMANITARIAN_INCIDENT_STATUS_DECISION_Patch;
+GO
+CREATE PROCEDURE dbo.usp_API_HUMANITARIAN_INCIDENT_STATUS_DECISION_Patch
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_HUMANITARIAN_INCIDENT_STATUS_DECISION_Patch' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_MHRA_System_Broadcast_Message_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_MHRA_System_Broadcast_Message_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_MHRA_System_Broadcast_Message_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_MHRA_System_Broadcast_Message_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_MHRA_System_Broadcast_Message_PUT', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_MHRA_System_Broadcast_Message_PUT;
+GO
+CREATE PROCEDURE dbo.usp_API_MHRA_System_Broadcast_Message_PUT
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_MHRA_System_Broadcast_Message_PUT' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_MHRA_System_Broadcast_Message_User_view_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_MHRA_System_Broadcast_Message_User_view_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_MHRA_System_Broadcast_Message_User_view_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_MHRA_System_Broadcast_Message_User_view_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_MHRA_System_Broadcast_UserAndMessage_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_MHRA_System_Broadcast_UserAndMessage_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_MHRA_System_Broadcast_UserAndMessage_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_MHRA_System_Broadcast_UserAndMessage_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Migration_UserOrganisation_Address_Validation_Check', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Migration_UserOrganisation_Address_Validation_Check;
+GO
+CREATE PROCEDURE dbo.usp_API_Migration_UserOrganisation_Address_Validation_Check
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Migration_UserOrganisation_Address_Validation_Check' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Notified_Body_Get_V1', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Notified_Body_Get_V1;
+GO
+CREATE PROCEDURE dbo.usp_API_Notified_Body_Get_V1
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Notified_Body_Get_V1' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ORGANISATION_SEARCH_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ORGANISATION_SEARCH_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_ORGANISATION_SEARCH_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ORGANISATION_SEARCH_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_ORGANISATION_UNREGISTER_APPLICATION_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_ORGANISATION_UNREGISTER_APPLICATION_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_ORGANISATION_UNREGISTER_APPLICATION_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_ORGANISATION_UNREGISTER_APPLICATION_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Address_Previous_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Address_Previous_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Address_Previous_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Address_Previous_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Address_withAddTypeFlags_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Address_withAddTypeFlags_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Address_withAddTypeFlags_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Address_withAddTypeFlags_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Compliance_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Compliance_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Compliance_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Compliance_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Compliance_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Compliance_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Compliance_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Compliance_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Compliance_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Compliance_Put;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Compliance_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Compliance_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Contact_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Contact_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Contact_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Contact_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Detail_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Detail_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Detail_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Detail_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_DeviceDocuments_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_DeviceDocuments_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_DeviceDocuments_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_DeviceDocuments_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Documents_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Documents_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Documents_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Documents_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Migration_Grace_Period_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Migration_Grace_Period_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Migration_Grace_Period_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Migration_Grace_Period_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Name_Previous_Current_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Name_Previous_Current_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Name_Previous_Current_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Name_Previous_Current_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Organisation_Service_Permission_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Organisation_Service_Permission_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_Organisation_Service_Permission_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Organisation_Service_Permission_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_PARTY_CATEGORY_UNREGISTER_REASON_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_PARTY_CATEGORY_UNREGISTER_REASON_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_PARTY_CATEGORY_UNREGISTER_REASON_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_PARTY_CATEGORY_UNREGISTER_REASON_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_PARTY_NOTES_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_PARTY_NOTES_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_PARTY_NOTES_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_PARTY_NOTES_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Parent_AssociationType_By_Child_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Parent_AssociationType_By_Child_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Parent_AssociationType_By_Child_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Parent_AssociationType_By_Child_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Party_Event_Communication_Document_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Party_Event_Communication_Document_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Party_Event_Communication_Document_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Party_Event_Communication_Document_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_ACCOUNT_REJECTION_REASON_DRAFT_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_ACCOUNT_REJECTION_REASON_DRAFT_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_ACCOUNT_REJECTION_REASON_DRAFT_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_ACCOUNT_REJECTION_REASON_DRAFT_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Application_Status_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Application_Status_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Application_Status_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Application_Status_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Application_Types_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Application_Types_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Application_Types_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Application_Types_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Common_Service_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Common_Service_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Common_Service_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Common_Service_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Contact_Category_Type_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Contact_Category_Type_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Contact_Category_Type_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Contact_Category_Type_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Country_Get_V1', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Country_Get_V1;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Country_Get_V1
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Country_Get_V1' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_DEROGATIONS_UK_HOSPITALS_SHARE', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_DEROGATIONS_UK_HOSPITALS_SHARE;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_DEROGATIONS_UK_HOSPITALS_SHARE
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_DEROGATIONS_UK_HOSPITALS_SHARE' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_DEROGATIONS_WORKFLOW_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_DEROGATIONS_WORKFLOW_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_DEROGATIONS_WORKFLOW_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_DEROGATIONS_WORKFLOW_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_DEVICE_REGISTRATION_FURTHER_INFORMATION_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_DEVICE_REGISTRATION_FURTHER_INFORMATION_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_DEVICE_REGISTRATION_FURTHER_INFORMATION_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_DEVICE_REGISTRATION_FURTHER_INFORMATION_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_DEVICE_TYPE_CERTIFICATE_TEXT_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_DEVICE_TYPE_CERTIFICATE_TEXT_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_DEVICE_TYPE_CERTIFICATE_TEXT_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_DEVICE_TYPE_CERTIFICATE_TEXT_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_DEVICE_TYPE_FILTER_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_DEVICE_TYPE_FILTER_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_DEVICE_TYPE_FILTER_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_DEVICE_TYPE_FILTER_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_DEVICE_TYPE_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_DEVICE_TYPE_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_DEVICE_TYPE_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_DEVICE_TYPE_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Device_Guidance_Helptext_Certificate_Type_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Device_Guidance_Helptext_Certificate_Type_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Device_Guidance_Helptext_Certificate_Type_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Device_Guidance_Helptext_Certificate_Type_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Device_Guidance_Helptext_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Device_Guidance_Helptext_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Device_Guidance_Helptext_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Device_Guidance_Helptext_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_GENDER_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_GENDER_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_GENDER_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_GENDER_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_GMDN_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_GMDN_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_GMDN_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_GMDN_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_ADVERSE_BLOOD_INCIDENT_TYPE_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_ADVERSE_BLOOD_INCIDENT_TYPE_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_ADVERSE_BLOOD_INCIDENT_TYPE_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_ADVERSE_BLOOD_INCIDENT_TYPE_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_BLOOD_PRODUCT_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_BLOOD_PRODUCT_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_BLOOD_PRODUCT_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_BLOOD_PRODUCT_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_EVENT_INVOLVE_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_EVENT_INVOLVE_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_EVENT_INVOLVE_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_EVENT_INVOLVE_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_EVENT_TYPE_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_EVENT_TYPE_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_EVENT_TYPE_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_EVENT_TYPE_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_EXCLUSION_REASON_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_EXCLUSION_REASON_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_EXCLUSION_REASON_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_EXCLUSION_REASON_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_IMPLICATED_BLOOD_COMPONENT_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_IMPLICATED_BLOOD_COMPONENT_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_IMPLICATED_BLOOD_COMPONENT_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_IMPLICATED_BLOOD_COMPONENT_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_IMPUTABILITY_LEVEL_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_IMPUTABILITY_LEVEL_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_IMPUTABILITY_LEVEL_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_IMPUTABILITY_LEVEL_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_INCIDENT_CATEGORY_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_INCIDENT_CATEGORY_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_INCIDENT_CATEGORY_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_INCIDENT_CATEGORY_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_INCIDENT_STATUS_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_INCIDENT_STATUS_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_INCIDENT_STATUS_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_INCIDENT_STATUS_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_LOCATION_OF_INCIDENT_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_LOCATION_OF_INCIDENT_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_LOCATION_OF_INCIDENT_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_LOCATION_OF_INCIDENT_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_MHRA_STATUS_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_MHRA_STATUS_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_MHRA_STATUS_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_MHRA_STATUS_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_REACTION_TYPE_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_REACTION_TYPE_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_REACTION_TYPE_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_REACTION_TYPE_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_REPORT_WORKFLOW_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_REPORT_WORKFLOW_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_REPORT_WORKFLOW_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_REPORT_WORKFLOW_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_SPECIFICATION_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_SPECIFICATION_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_SPECIFICATION_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_SPECIFICATION_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_TABLE_DELETE', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_DELETE;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_DELETE
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_TABLE_DELETE' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_TABLE_ENTRY_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_ENTRY_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_ENTRY_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_TABLE_ENTRY_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_TABLE_PATCH', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_PATCH;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_PATCH
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_TABLE_PATCH' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_TABLE_POST', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_POST;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_POST
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_TABLE_POST' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HAEMO_TABLE_SEARCH_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_SEARCH_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HAEMO_TABLE_SEARCH_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HAEMO_TABLE_SEARCH_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HUMANITARIAN_CASE_USER_TYPE_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HUMANITARIAN_CASE_USER_TYPE_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HUMANITARIAN_CASE_USER_TYPE_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HUMANITARIAN_CASE_USER_TYPE_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_HUMANITARIAN_CASE_WORKFLOW_STATUS_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_HUMANITARIAN_CASE_WORKFLOW_STATUS_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_HUMANITARIAN_CASE_WORKFLOW_STATUS_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_HUMANITARIAN_CASE_WORKFLOW_STATUS_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_ORGANISATION_DESCRIPTION_GET', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_ORGANISATION_DESCRIPTION_GET;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_ORGANISATION_DESCRIPTION_GET
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_ORGANISATION_DESCRIPTION_GET' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_ORGANISATION_REGISTRATION_STATUS_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_ORGANISATION_REGISTRATION_STATUS_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_ORGANISATION_REGISTRATION_STATUS_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_ORGANISATION_REGISTRATION_STATUS_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Party_Category_Get_V1', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Party_Category_Get_V1;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Party_Category_Get_V1
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Party_Category_Get_V1' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_PriceCatalogues_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_PriceCatalogues_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_PriceCatalogues_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_PriceCatalogues_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_REF_Title_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_REF_Title_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_REF_Title_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_REF_Title_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_RejectionReasons_ByType_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_RejectionReasons_ByType_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_RejectionReasons_ByType_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_RejectionReasons_ByType_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Representative_Organisation_Document_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Representative_Organisation_Document_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_Representative_Organisation_Document_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Representative_Organisation_Document_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_Service_Permission_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_Service_Permission_Post;
+GO
+CREATE PROCEDURE dbo.usp_API_Service_Permission_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_Service_Permission_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_API_USER_PERMISSION_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_API_USER_PERMISSION_Get;
+GO
+CREATE PROCEDURE dbo.usp_API_USER_PERMISSION_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_API_USER_PERMISSION_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_Application_CFSOrderApplicationStatus_Put', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Application_CFSOrderApplicationStatus_Put;
+GO
+CREATE PROCEDURE dbo.usp_Application_CFSOrderApplicationStatus_Put
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_Application_CFSOrderApplicationStatus_Put' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_Application_Organisation_Inprogress_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Application_Organisation_Inprogress_Get;
+GO
+CREATE PROCEDURE dbo.usp_Application_Organisation_Inprogress_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_Application_Organisation_Inprogress_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_Further_Info_Application_Event_Post', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_Further_Info_Application_Event_Post;
+GO
+CREATE PROCEDURE dbo.usp_Further_Info_Application_Event_Post
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_Further_Info_Application_Event_Post' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_HAEMO_ORGANISATION_INCIDENTS_TRANSFER_PATCH', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_HAEMO_ORGANISATION_INCIDENTS_TRANSFER_PATCH;
+GO
+CREATE PROCEDURE dbo.usp_HAEMO_ORGANISATION_INCIDENTS_TRANSFER_PATCH
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_HAEMO_ORGANISATION_INCIDENTS_TRANSFER_PATCH' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_ACCOUNT_REJECTION_REASON_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_ACCOUNT_REJECTION_REASON_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_ACCOUNT_REJECTION_REASON_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_ACCOUNT_REJECTION_REASON_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_BANK_ACCOUNT_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_BANK_ACCOUNT_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_BANK_ACCOUNT_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_BANK_ACCOUNT_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_Document_Type_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_Document_Type_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_Document_Type_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_Document_Type_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_ORGANISATION_DETAIL_FURTHER_INFORMATION_BY_ORG_ROLE_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_ORGANISATION_DETAIL_FURTHER_INFORMATION_BY_ORG_ROLE_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_ORGANISATION_DETAIL_FURTHER_INFORMATION_BY_ORG_ROLE_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_ORGANISATION_DETAIL_FURTHER_INFORMATION_BY_ORG_ROLE_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_ORGANISATION_TYPE_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_ORGANISATION_TYPE_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_ORGANISATION_TYPE_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_ORGANISATION_TYPE_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_PARTY_UNREGISTER_APPLICATION_REJECTION_REASON_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_PARTY_UNREGISTER_APPLICATION_REJECTION_REASON_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_PARTY_UNREGISTER_APPLICATION_REJECTION_REASON_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_PARTY_UNREGISTER_APPLICATION_REJECTION_REASON_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_PAYMENT_METHOD_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_PAYMENT_METHOD_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_PAYMENT_METHOD_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_PAYMENT_METHOD_Get' AS _procName;
+END;
+GO
+
+IF OBJECT_ID('dbo.usp_REF_PAYMENT_STATUS_Get', 'P') IS NOT NULL DROP PROCEDURE dbo.usp_REF_PAYMENT_STATUS_Get;
+GO
+CREATE PROCEDURE dbo.usp_REF_PAYMENT_STATUS_Get
+AS
+BEGIN
+    SET NOCOUNT ON;
+    SELECT 'STUB' AS _stub, 'usp_REF_PAYMENT_STATUS_Get' AS _procName;
+END;
+GO
+
