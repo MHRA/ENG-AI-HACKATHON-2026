@@ -1,0 +1,37 @@
+# Compiled output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# Lock files (uncomment if you don't want to commit)
+# pnpm-lock.yaml
+
+# Temp
+tmp/
+temp/

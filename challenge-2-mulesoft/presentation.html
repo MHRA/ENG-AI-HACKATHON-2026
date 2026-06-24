@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MuleSoft Replacement — MHRA Hackathon 2026</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #e2e8f0; overflow: hidden; }
+
+    .slide { display: none; width: 100vw; height: 100vh; padding: 60px 80px; flex-direction: column; justify-content: center; }
+    .slide.active { display: flex; }
+
+    h1 { font-size: 3.4rem; font-weight: 700; color: #f8fafc; margin-bottom: 20px; line-height: 1.2; }
+    h2 { font-size: 2.6rem; font-weight: 600; color: #38bdf8; margin-bottom: 30px; }
+    p { font-size: 1.5rem; line-height: 1.9; color: #cbd5e1; max-width: 1000px; }
+    ul { font-size: 1.4rem; line-height: 2.4; color: #cbd5e1; list-style: none; padding-left: 0; }
+    ul li::before { content: "\2192 "; color: #38bdf8; font-weight: bold; }
+
+    .subtitle { font-size: 1.6rem; color: #94a3b8; margin-top: 12px; }
+    .highlight { color: #38bdf8; }
+    .success { color: #4ade80; }
+    .warning { color: #fbbf24; }
+
+    .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 40px; }
+    .stat { text-align: center; padding: 36px; background: #1e293b; border-radius: 16px; border: 1px solid #334155; }
+    .stat-value { font-size: 3.2rem; font-weight: 700; color: #38bdf8; }
+    .stat-label { font-size: 1.1rem; color: #94a3b8; margin-top: 10px; }
+
+    .diagram { background: #1e293b; border-radius: 16px; padding: 40px; border: 1px solid #334155; margin: 20px 0; }
+    .diagram-row { display: flex; align-items: center; justify-content: center; gap: 24px; margin: 20px 0; flex-wrap: wrap; }
+    .diagram-box { padding: 18px 28px; border-radius: 12px; font-size: 1.2rem; font-weight: 600; text-align: center; min-width: 170px; }
+    .diagram-arrow { font-size: 1.8rem; color: #64748b; }
+    .box-blue { background: #1e40af; color: #bfdbfe; }
+    .box-purple { background: #6b21a8; color: #e9d5ff; }
+    .box-green { background: #166534; color: #bbf7d0; }
+    .box-orange { background: #9a3412; color: #fed7aa; }
+    .box-red { background: #991b1b; color: #fecaca; text-decoration: line-through; }
+
+    .tag { display: inline-block; padding: 6px 14px; background: #1e3a5f; color: #7dd3fc; border-radius: 6px; font-size: 1rem; margin: 4px 4px 4px 0; }
+
+    .module-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 24px; }
+    .module-card { padding: 14px 18px; background: #1e293b; border-radius: 10px; border: 1px solid #334155; text-align: center; }
+    .module-card .name { font-size: 1.1rem; font-weight: 600; color: #f8fafc; }
+    .module-card .count { font-size: 0.9rem; color: #94a3b8; margin-top: 4px; }
+
+    .nav { position: fixed; bottom: 30px; right: 40px; display: flex; gap: 12px; z-index: 100; }
+    .nav button { padding: 12px 24px; border: 1px solid #475569; background: #1e293b; color: #e2e8f0; border-radius: 8px; cursor: pointer; font-size: 1.1rem; transition: background 0.2s; }
+    .nav button:hover { background: #334155; }
+    .slide-counter { position: fixed; bottom: 36px; left: 40px; color: #64748b; font-size: 1rem; }
+  </style>
+</head>
+<body>
+
+<!-- Slide 1: Title -->
+<div class="slide active">
+  <h1>We Replaced MuleSoft in a Day</h1>
+  <p class="subtitle" style="font-size: 1.8rem; color: #94a3b8; margin-bottom: 30px;">All 27 services. 162 stored procedures. One NestJS app.</p>
+  <p style="font-size: 1.3rem; color: #64748b;">MHRA Engineering Hackathon &mdash; June 2026</p>
+  <div style="margin-top: 40px;">
+    <span class="tag">NestJS 11</span>
+    <span class="tag">Azure Container Apps</span>
+    <span class="tag">Azure SQL</span>
+    <span class="tag">TypeScript</span>
+    <span class="tag">162 Stored Procedures</span>
+    <span class="tag">12 Modules</span>
+  </div>
+</div>
+
+<!-- Slide 2: The Problem -->
+<div class="slide">
+  <h2>The Problem</h2>
+  <ul>
+    <li>MuleSoft 3.9 support <span class="warning">ends Dec 2028</span> &mdash; forced migration</li>
+    <li><span class="warning">&pound;100k+/year</span> licensing for what is just a routing layer</li>
+    <li>All business logic is already in <span class="highlight">162 Azure SQL stored procedures</span></li>
+    <li>Only the vendor can make changes &mdash; we can't maintain it ourselves</li>
+    <li>27 separate services doing nothing but pass-through to the database</li>
+  </ul>
+  <div class="diagram" style="margin-top: 30px;">
+    <div class="diagram-row">
+      <div class="diagram-box box-blue">Appian</div>
+      <div class="diagram-arrow">&rarr;</div>
+      <div class="diagram-box box-red">MuleSoft 3.9<br>27 services</div>
+      <div class="diagram-arrow">&rarr;</div>
+      <div class="diagram-box box-green">Azure SQL<br>162 procs</div>
+    </div>
+  </div>
+</div>
+
+<!-- Slide 3: The Solution -->
+<div class="slide">
+  <h2>The Solution</h2>
+  <div class="diagram">
+    <div class="diagram-row">
+      <div class="diagram-box box-blue">Appian</div>
+      <div class="diagram-arrow">&rarr;</div>
+      <div class="diagram-box box-purple">Azure APIM</div>
+      <div class="diagram-arrow">&rarr;</div>
+      <div class="diagram-box box-orange">NestJS App<br>12 modules</div>
+      <div class="diagram-arrow">&rarr;</div>
+      <div class="diagram-box box-green">Azure SQL<br>162 procs<br>(unchanged)</div>
+    </div>
+  </div>
+  <ul style="margin-top: 30px;">
+    <li><span class="success">Same database, same procs &mdash; zero business logic risk</span></li>
+    <li>Replace vendor middleware with code <span class="highlight">we own and understand</span></li>
+    <li>TypeScript &mdash; the team already knows it</li>
+    <li>Dockerised, autoscales, portable &mdash; no vendor lock-in</li>
+  </ul>
+</div>
+
+<!-- Slide 4: What We Built -->
+<div class="slide">
+  <h2>What We Built Today</h2>
+  <p style="margin-bottom: 20px;"><span class="success">All 12 API modules</span> covering every domain in the MuleSoft layer:</p>
+  <div class="module-grid">
+    <div class="module-card"><div class="name">Address</div><div class="count">9 procs</div></div>
+    <div class="module-card"><div class="name">Application</div><div class="count">7 procs</div></div>
+    <div class="module-card"><div class="name">Contact</div><div class="count">5 procs</div></div>
+    <div class="module-card"><div class="name">Device</div><div class="count">5 procs</div></div>
+    <div class="module-card"><div class="name">Document</div><div class="count">7 procs</div></div>
+    <div class="module-card"><div class="name">Event</div><div class="count">37 procs</div></div>
+    <div class="module-card"><div class="name">Organisation</div><div class="count">19 procs</div></div>
+    <div class="module-card"><div class="name">Payment</div><div class="count">2 procs</div></div>
+    <div class="module-card"><div class="name">Product</div><div class="count">2 procs</div></div>
+    <div class="module-card"><div class="name">Reference</div><div class="count">50+ procs</div></div>
+    <div class="module-card"><div class="name">SHOT/SABRE</div><div class="count">13 procs</div></div>
+    <div class="module-card"><div class="name">User Account</div><div class="count">7 procs</div></div>
+  </div>
+</div>
+
+<!-- Slide 5: Technical Detail -->
+<div class="slide">
+  <h2>How It Works</h2>
+  <ul>
+    <li>Every stored proc call uses <span class="highlight">correct parameter names and SQL types</span> from the MuleSoft XML</li>
+    <li>Query-parameter routing replicates DataWeave logic in TypeScript</li>
+    <li>SHOT module bridges SOAP/WSDL to SABRE (haemovigilance system)</li>
+    <li>Swagger/OpenAPI auto-generated at <span class="highlight">/api/docs</span></li>
+    <li>Auth guard, structured logging, correlation ID tracing</li>
+    <li><span class="success">77 TypeScript files, 0 compilation errors</span></li>
+    <li>Address module: <span class="success">60 automated tests passing</span> (unit + integration)</li>
+  </ul>
+</div>
+
+<!-- Slide 6: Live Demo -->
+<div class="slide">
+  <h2>Live Demo</h2>
+  <p style="margin-bottom: 24px;">Running locally right now &mdash; hitting real SQL Server with stub procs:</p>
+  <ul>
+    <li><span class="highlight">GET /addresses?organisationId=1742</span> &mdash; routes to correct proc</li>
+    <li><span class="highlight">GET /reference/countries</span> &mdash; returns from usp_API_REF_Country_Get_V1</li>
+    <li><span class="highlight">GET /events/work-in-progress</span> &mdash; 21 query params, pagination</li>
+    <li><span class="highlight">GET /shot/event-confirm</span> &mdash; SABRE poll (no params)</li>
+    <li><span class="highlight">POST /payments</span> &mdash; 37 discrete parameters, not a JSON blob</li>
+  </ul>
+  <p style="margin-top: 30px; font-size: 1.2rem; color: #94a3b8;">Swagger UI: <span class="highlight">http://localhost:3000/api/docs</span></p>
+</div>
+
+<!-- Slide 7: The Numbers -->
+<div class="slide">
+  <h2>The Numbers</h2>
+  <div class="stat-grid">
+    <div class="stat">
+      <div class="stat-value">1 day</div>
+      <div class="stat-label">To build all 12 modules</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">162</div>
+      <div class="stat-label">Stored procedures wired</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">&pound;100k+</div>
+      <div class="stat-label">Annual licensing saved</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">0</div>
+      <div class="stat-label">Database changes needed</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">77</div>
+      <div class="stat-label">Source files, 0 errors</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">~&pound;500/mo</div>
+      <div class="stat-label">Azure hosting cost</div>
+    </div>
+  </div>
+</div>
+
+<!-- Slide 8: Next Steps -->
+<div class="slide">
+  <h2>Next Steps</h2>
+  <ul>
+    <li>Connect to the real DigitalServiceDataStore (dev environment)</li>
+    <li>Run integration tests against live procs to validate response shapes</li>
+    <li>Deploy to Azure Container Apps (Dockerfile ready)</li>
+    <li>Wire Azure APIM for production auth (OAuth2 client credentials)</li>
+    <li>Performance testing &mdash; prove it handles Appian traffic</li>
+  </ul>
+  <p style="margin-top: 40px; font-size: 1.8rem; color: #f8fafc; font-weight: 600;">
+    The ask: approve production migration &mdash; well before the Dec 2028 deadline
+  </p>
+  <p style="margin-top: 16px; font-size: 1.2rem; color: #94a3b8;">
+    Remaining work: integration testing + APIM config. The code is done.
+  </p>
+</div>
+
+<!-- Navigation -->
+<div class="nav">
+  <button onclick="prevSlide()">&larr; Prev</button>
+  <button onclick="nextSlide()">Next &rarr;</button>
+</div>
+<div class="slide-counter"><span id="current">1</span> / <span id="total"></span></div>
+
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let current = 0;
+  document.getElementById('total').textContent = slides.length;
+
+  function showSlide(n) {
+    slides[current].classList.remove('active');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    document.getElementById('current').textContent = current + 1;
+  }
+
+  function nextSlide() { showSlide(current + 1); }
+  function prevSlide() { showSlide(current - 1); }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); nextSlide(); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); prevSlide(); }
+  });
+</script>
+</body>
+</html>
